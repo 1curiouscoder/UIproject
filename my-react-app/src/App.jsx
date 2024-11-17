@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../public/styles/styles.css";
 import Navbar from "./components/Navbar";
 import Container from "./components/Container";
+import Background from "./components/Background";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -15,6 +16,7 @@ function App() {
           className: "homepageDescription",
         }}
       />
+      <Background />
     </div>
   );
 }
